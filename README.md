@@ -21,5 +21,5 @@ Steps:
 <li>In cell A2, use an =importDATA() function to pull in the CSV you want from the Secretary of State's website. In this case, I'm pulling in all of the races, so the formula is =ImportDATA("http://electionresults.sos.ne.gov/resultsCSV.aspx?text=All").</li>
 <li>In the empty row above the data, copy-paste the *values* of the existing header row that starts in A2.</li>
 <li>Hit the Share button in the upper right-hand corner of your screen and make sure your worksheet is public. Then go to File --> Publish to the Web --> Start Publishing. Copy the spreadsheet key -- you'll find this between "key=" and "&output=" -- mine is 0Ag4MM37uq7FmdFFBQmhnOFVaUWhOaFp5WDB1WngxTVE -- and paste it into the script at the bottom of the html file.</li>
-<li>Basically all of the content on the page is created dynamically in the sheets.js file, so that's where you'd want to do most of the tweaking.</li>
+<li>Basically all the page content is created dynamically in the sheets.js file, so that's where you'd want to do most of the tweaking.</li>
 </ol>
