@@ -43,7 +43,7 @@
             var precinctsout = parseInt(json.feed.entry[i].gsx$precinctsreporting.$t.substr(json.feed.entry[i].gsx$precinctsreporting.$t.search("/")+1,999));
            
 // if all the precincts are in and the candidate has a majority, pop in a checkmark using Font Awesome icons. If not, put an empty box.
-          if (precinctsin == precinctsout && (json.feed.entry[i].gsx$candidatepercentage.$t * 100)=>51){winner="<i class='icon-check'></i>";}else{winner="<i class='icon-check-empty'></i>";};
+          if (precinctsin == precinctsout && (json.feed.entry[i].gsx$candidatepercentage.$t * 100)>51){winner="<i class='icon-check'></i>";}else{winner="<i class='icon-check-empty'></i>";};
 
             table_content += [
                     '<tr><td style="text-align:left;">',
