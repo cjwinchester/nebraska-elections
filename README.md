@@ -12,6 +12,7 @@ Dependencies:
 <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
 <li><a href="https://github.com/hail2u/jquery.table-filter" target="_blank">jQuery Table Filter</a></li>
 <li><a href="http://jqueryui.com/tooltip/" target="_blank">jQuery UI Tooltip</a></li>
+<li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a></li>
 <li><a href="https://developers.google.com/chart/image/" target="_blank">Google Image Charts</a></li>
 </ul>
 
